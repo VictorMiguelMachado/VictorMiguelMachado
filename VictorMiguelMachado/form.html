@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="imagens/Design-removebg-700-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="imagens/Design-removebg.png" alt="Logo do site" width="40px" height="40px">
+        </a>
+    </header>
+
+    <main>
+        <h1>Form for help</h1>
+        <hr>
+        <br>
+        <form action="" method="post">
+            <div>
+                <label for="nome">Name</label>
+                <input type="text" name="texto" id="texto" name="nome" placeholder="Type it your name here...">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Type it your email here...">
+            </div>
+            <br>
+            <div>
+                <label for="data">Vehicle rental date</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <br>
+            <div>
+                <label for="data">Date you are signing the form</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <br>
+            <div>
+                <label for="hora">Time you rented the vehicle</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <br>
+            <div>
+                <label for="data">Day the problem occored</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <br>            
+            <div>
+                <select name="Select" id="select">
+                    <option value="" disabled selected>You rent...</option>
+                    <option value="vehicle">A car</option>
+                    <option value="vehicle">A motorbike</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="qualquer">car license plate</label>
+                <input type="text" id="qualquer" name="numero">
+            </div>
+            <br>
+
+            <textarea name="Bio" id="bio" cols="30" rows="10" placeholder="Detail your problem..."></textarea>
+            <br>
+            <div>
+                <!-- <label for="Submit">Submit</label> -->
+                <input type="submit" id="Submit" name="Submit">
+            </div>
+            <br>
+            <div>
+                <label for="reset"></label>
+                <input type="reset" id="reset" name="reset">
+            </div>
+            
+        </form>
+        <br>
+        Or, send us a email: <a href="https://mail.google.com/mail/u/0/#inbox">here</a>
+        <br>
+        <a href="index.html">Home</a>
+    </main>
+</body>
+</html>
